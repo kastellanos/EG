@@ -13,6 +13,7 @@ public GraphicComposite( ) {
 	compositeShape = true;
 	
 }
+	//Composite
 	@Override
 	protected void doPaint( Graphics2D g ) {
 		for(Graphic graph: elements){
